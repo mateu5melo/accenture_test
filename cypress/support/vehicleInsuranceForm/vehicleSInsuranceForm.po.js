@@ -1,4 +1,4 @@
-import { vehicleInsuranceFormPage } from '../e2e/pages/vehicleInsuranceForm.js'
+import { vehicleInsuranceFormPage } from '../../e2e/pages/vehicleInsuranceForm.js'
 
 const vehicleDataForm = new vehicleInsuranceFormPage([
   { action: 'select', selector: 'select[name="Make"]', name: 'Make' },  
