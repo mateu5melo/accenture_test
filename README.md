@@ -10,7 +10,7 @@ This repository contains the automated test for submitting an automobile insuran
 
 ## Getting started
 
-To get started with using Cypress in the SGA Bet V3 project, follow the steps below:
+To get started with using Cypress in Insurance Quote Demo Application, follow the steps below:
 
     1. Clone the repository to your local machine.
     2. Access the root of cloned repository(/accenture_test)
