@@ -29,7 +29,7 @@ export class vehicleInsuranceFormPage {
     moreThanAMonthLater(){
       const today = new Date()
       let nextMonth = today
-      const daysInMonth = new Date(today.getFullYear(), (today.getMonth()+1), 0).getDate();
+      const daysInMonth = new Date(today.getFullYear(), (today.getMonth()+2), 0).getDate();
       nextMonth.setDate(today.getDate() + daysInMonth +1)
       const month = nextMonth.getMonth() + 1 
       const day = nextMonth.getDate()
